@@ -1,8 +1,11 @@
 // Kirjoita funktio sum1 siten, että se palauttaa a:n ja b:n summan. Käytä tavallista funktiota
 // Kirjoita funktio sum2, joka on sama kuin yllä, mutta on nuolifunktio
 
+function sum1(a, b) {
+  return a+b;
+}
 
-
+let sum2 = (a, b) => a+b;
 
 
 // Esimerkki - älä muokkaa

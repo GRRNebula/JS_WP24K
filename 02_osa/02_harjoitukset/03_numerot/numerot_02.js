@@ -4,9 +4,11 @@
 
 
 function fahrenheitToCelsius(fahrenheit) {
- 
+  return 1.0*((Fahrenheit - 32) * 5/9);
 }
 
+// Ja sama nuolifunktiona
+fahrenheitToCelsius = fahrenheit => 1.0*((Fahrenheit - 32) * 5/9);
 
 // Esimerkki - älä muokkaa
 console.log(fahrenheitToCelsius(21)); // haluttu tulos: "-6,1"

@@ -4,3 +4,10 @@
  * - Laske näiden kahden numeron jakolaskun tulos ja tallenna se uuteen muuttujaan
  * - Tulosta vastaus konsoliin.
  */
+
+let muuttuja1 = 5;
+let muuttuja2 = 10;
+
+let jaettu = muuttuja1/muuttuja2;
+
+console.log(jaettu);
